@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar-nav .nav-link {
+    transition: transform 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.1);
+}
+
+.card {
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Add any additional styles here */
+
+
+.jumbotron {
+    padding-top: 8rem;
+    background-color: #e2edff;
+}
+
+#projects {
+    background-color: #e2edff;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+#about {
+    padding-bottom: 5rem;
+}
